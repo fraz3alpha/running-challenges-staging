@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/version-1.3.0/feed.xml" rel="self" type="application/atom+xml" /><link href="/version-1.3.0/" rel="alternate" type="text/html" /><updated>2022-06-02T21:58:00+01:00</updated><id>/version-1.3.0/feed.xml</id><title type="html">Running Challenges - Staging (version-1.3.0)</title><subtitle>Collect badges and complete challenges for running, jogging, walking, and volunteering at your weekly 5k parkrun. This browser extension adds extra information to your parkrun results page so you can see your progress.</subtitle><entry><title type="html">Record Breaker Challenge (v1.3.0)</title><link href="/version-1.3.0/2022/06/02/v1.3.0-record-breaker.html" rel="alternate" type="text/html" title="Record Breaker Challenge (v1.3.0)" /><published>2022-06-02T00:00:00+01:00</published><updated>2022-06-02T00:00:00+01:00</updated><id>/version-1.3.0/2022/06/02/v1.3.0-record-breaker</id><content type="html" xml:base="/version-1.3.0/2022/06/02/v1.3.0-record-breaker.html">&lt;p&gt;A new challenge!…&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/version-1.3.0/feed.xml" rel="self" type="application/atom+xml" /><link href="/version-1.3.0/" rel="alternate" type="text/html" /><updated>2022-06-02T23:00:25+01:00</updated><id>/version-1.3.0/feed.xml</id><title type="html">Running Challenges - Staging (version-1.3.0)</title><subtitle>Collect badges and complete challenges for running, jogging, walking, and volunteering at your weekly 5k parkrun. This browser extension adds extra information to your parkrun results page so you can see your progress.</subtitle><entry><title type="html">Record Breaker Challenge (v1.3.0)</title><link href="/version-1.3.0/2022/06/02/v1.3.0-record-breaker.html" rel="alternate" type="text/html" title="Record Breaker Challenge (v1.3.0)" /><published>2022-06-02T00:00:00+01:00</published><updated>2022-06-02T00:00:00+01:00</updated><id>/version-1.3.0/2022/06/02/v1.3.0-record-breaker</id><content type="html" xml:base="/version-1.3.0/2022/06/02/v1.3.0-record-breaker.html">&lt;p&gt;A new challenge!…&lt;/p&gt;
 
 &lt;h2 id=&quot;new&quot;&gt;New!&lt;/h2&gt;
 
-&lt;p&gt;We have a new Record Breaker challenge, support for more parkrun websites after the changes last year, and a few other tweaks&lt;/p&gt;
+&lt;p&gt;We have a new Record Breaker challenge, support for more parkrun websites after parkrun HQ’s changes to the website last year, and a few other tweaks.&lt;/p&gt;
 
 &lt;p&gt;Big thanks to &lt;a href=&quot;https://github.com/rboyatt&quot;&gt;Russell Boyatt&lt;/a&gt; and &lt;a href=&quot;https://github.com/JazzyJ87&quot;&gt;@JazzyJ87&lt;/a&gt; who provided many of the changes in this release and are the main reason we have been able to do this update!&lt;/p&gt;
 
@@ -10,17 +10,17 @@
 
 &lt;p&gt;&lt;img src=&quot;/version-1.3.0//img/badges/runner-record-breaker-78.png&quot; alt=&quot;Name Badge challenge badge&quot; title=&quot;Name Badge challenge badge&quot; class=&quot;center-image image-border&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;This badge is awarded for running all the parkruns withing 33km, 45km, and 78km from your average parkrun location. For those of you too young to remember these things, but too old to know about the recent revival of vinyl, these are the speeds of various types of records.&lt;/p&gt;
+&lt;p&gt;This badge is awarded for running all of the parkruns within 33km, 45km, and 78km of your average parkrun location. For those of you too young to remember these things, but too old to know about the recent revival of vinyl, these are the speeds of various types of vinyl records.&lt;/p&gt;
 
-&lt;p&gt;We had originally coded this up by using your configured home parkrun event as the centre - but this would mean the challenge (and badge) would only be visible to you. However, as we &lt;a href=&quot;https://github.com/fraz3alpha/running-challenges/pull/203#issuecomment-1141483334&quot;&gt;collaborated on this&lt;/a&gt; with &lt;a href=&quot;https://github.com/rboyatt&quot;&gt;Russell Boyatt&lt;/a&gt;, he made the very good point we could use the average parkrun location (which we already calculate), and then it would be possible to calculate it for anyone - a very good idea!&lt;/p&gt;
+&lt;p&gt;We had originally coded this up by using the home parkrun that you’ve set in the extension as the centre of the record. But this would mean that only you could see that you have completed the challenge (and badge). However, as we &lt;a href=&quot;https://github.com/fraz3alpha/running-challenges/pull/203#issuecomment-1141483334&quot;&gt;collaborated on this&lt;/a&gt; with &lt;a href=&quot;https://github.com/rboyatt&quot;&gt;Russell Boyatt&lt;/a&gt;, he made the very good point we could use the average parkrun location (which we already calculate), and then it would be possible for you to visit anyone’s parkrun page and see if they have a Record Breaker badge (without you having to know and set their home parkrun in the extension).&lt;/p&gt;
 
-&lt;p&gt;We also use the voronoi map style to show the events for this challenge, which could - if there are enough parkruns nearby - end up with a pleasing archery target of coloured sections. Or, not, as the case may be (Andy’s average parkrun is currently on the south coast of England in Worthing, so it’s a lop-sided affair where colours bleed into the channel!)&lt;/p&gt;
+&lt;p&gt;We also use the voronoi map style to show the events for this challenge. This can, if there are enough parkruns nearby, end up with a pleasing archery target of coloured sections. Or, not, as the case may be: Andy’s average parkrun is currently on the south coast of England in Worthing, so it’s a lop-sided affair where colours bleed into the channel!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/version-1.3.0//img/posts/record-breaker-map.png&quot; alt=&quot;Record Breaker badge&quot; title=&quot;Record Breaker badge&quot; class=&quot;center-image image-border&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;longest-tourism-streak-stat-update&quot;&gt;Longest tourism streak stat update&lt;/h3&gt;
 
-&lt;p&gt;The Longest tourism streak statistic now tells you when it ran to, so you can go look at it in your results, which we hope is useful&lt;/p&gt;
+&lt;p&gt;The &lt;em&gt;Longest tourism streak&lt;/em&gt; statistic now tells you which parkrun and which date it ends at, which we hope is useful.&lt;/p&gt;
 
 &lt;p&gt;e.g.&lt;/p&gt;
 
@@ -35,40 +35,40 @@
   &lt;/table&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Thanks to &lt;a href=&quot;https://github.com/JazzyJ87&quot;&gt;@JazzyJ87&lt;/a&gt; for contributing the code for this update&lt;/p&gt;
+&lt;p&gt;Thanks to &lt;a href=&quot;https://github.com/JazzyJ87&quot;&gt;@JazzyJ87&lt;/a&gt; for contributing the code for this update.&lt;/p&gt;
 
 &lt;h3 id=&quot;add-name-badge-map&quot;&gt;Add Name Badge map&lt;/h3&gt;
 
-&lt;p&gt;I think it was just forgotten about before, but the Name Badge challenge now has a map.&lt;/p&gt;
+&lt;p&gt;I think we just forgot to do it before, but the Name Badge challenge now has a map.&lt;/p&gt;
 
-&lt;p&gt;Thanks again to &lt;a href=&quot;https://github.com/JazzyJ87&quot;&gt;@JazzyJ87&lt;/a&gt; who &lt;a href=&quot;https://github.com/fraz3alpha/running-challenges/pull/336&quot;&gt;added this&lt;/a&gt; as well&lt;/p&gt;
+&lt;p&gt;Thanks again to &lt;a href=&quot;https://github.com/JazzyJ87&quot;&gt;@JazzyJ87&lt;/a&gt; who &lt;a href=&quot;https://github.com/fraz3alpha/running-challenges/pull/336&quot;&gt;added this&lt;/a&gt; as well.&lt;/p&gt;
 
 &lt;h2 id=&quot;bug-fixes&quot;&gt;Bug fixes&lt;/h2&gt;
 
 &lt;h3 id=&quot;non-english-parkrun-websites&quot;&gt;Non-English parkrun Websites&lt;/h3&gt;
 
-&lt;p&gt;We think we’ve fixed all the non-English parkrun websites, which previously didn’t work after things were re-jigged in the great website updates of late 2021.&lt;/p&gt;
+&lt;p&gt;We think we’ve fixed all the non-English parkrun websites. After parkrun HQ’s great website updates of late 2021, we fixed the English-language websites but not all the non-English websites. They should now all work.&lt;/p&gt;
 
 &lt;h3 id=&quot;skip-proceessing-profiles-with-no-runs&quot;&gt;Skip proceessing profiles with no runs&lt;/h3&gt;
 
-&lt;p&gt;It seems the parkrun website now renders a page differently if the parkrunner hasn’t conpleted any runs, so rather than throw an error we print a nice message&lt;/p&gt;
+&lt;p&gt;It seems the parkrun website now displays a page differently if the parkrunner hasn’t completed any runs. This caused the extension to display an error. Rather than displaying an error, we now print a nice message.&lt;/p&gt;
 
 &lt;h3 id=&quot;volunteer-role-name-updates&quot;&gt;Volunteer role name updates&lt;/h3&gt;
 
-&lt;p&gt;As part of the move away from “runs”, the parkrun website changed the names of a couple of the volunteer roles to reflect this, such as “Run Report Writer” just dropping the “Run” and becoming “Report Writer”. This broke these volunteer stats and badges, so we had to re-name these. It seems like the non-English versions were already OK (perhaps because they had thought about this before a new country was started), but if any of those look like they aren’t working, let us know&lt;/p&gt;
+&lt;p&gt;The parkrun website changed the names of a couple of the volunteer roles to reflect the move away from focusing on “runs”. For example, “Run Report Writer” became “Report Writer”. This broke these volunteer stats and badges so that it looked like you hadn’t ever done those roles when you had, at least on the English websites. We’ve now fixed this so that the extension looks for the new volunteer role names. It seems that the non-English volunteer role names were already OK (perhaps because they had thought about this before a new country was started), but if any of those look like they aren’t working, let us know.&lt;/p&gt;
 
-&lt;p&gt;Thanks to &lt;a href=&quot;https://github.com/rboyatt&quot;&gt;Russell Boyatt&lt;/a&gt; who &lt;a href=&quot;https://github.com/fraz3alpha/running-challenges/pull/334&quot;&gt;contributed this fix&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thanks to &lt;a href=&quot;https://github.com/rboyatt&quot;&gt;Russell Boyatt&lt;/a&gt; who &lt;a href=&quot;https://github.com/fraz3alpha/running-challenges/pull/334&quot;&gt;contributed this fix&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;firefox&quot;&gt;Firefox&lt;/h2&gt;
 
-&lt;p&gt;We are going to attempt to re-submit the extension to the Mozilla Add-Ons store, we’ve no idea if it will pass their checks and we don’t understand the reasoning for it being rejected before, but we’ll see if we can get any more information out of them&lt;/p&gt;
+&lt;p&gt;We are going to attempt to re-submit the extension to the Mozilla Add-Ons store so that it works on Firefox again. We’ve no idea if it will pass their checks and we don’t understand the reasoning for it being rejected before, but we’ll see if we can get any more information out of them.&lt;/p&gt;
 
 &lt;h2 id=&quot;how-do-i-get-all-of-this-great-stuff&quot;&gt;How do I get all of this great stuff?&lt;/h2&gt;
 
 &lt;p&gt;If you have already installed the extension it should update soon. Typically we
-have found it takes a few days for Chrome and Firefox to auto-update, but it should
+have found it takes a few days to auto-update, but it should
 do so eventually.  If you haven’t yet joined the fun you can get it from one of
-the links below. :&lt;/p&gt;
+the links below (the Firefox version will only be available if the store stops rejecting our submission…):&lt;/p&gt;
 
 &lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/running-challenges/kdapmdimgdebpgolimjnmcdlkbkddoif&quot;&gt;&lt;img src=&quot;/version-1.3.0//img/ChromeWebStore_BadgeWBorder_v2_206x58.png&quot; alt=&quot;Running Challenges in the Chrome Web Store&quot; title=&quot;Running Challenges in the Chrome Web Store&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;https://addons.mozilla.org/en-GB/firefox/addon/running-challenges/&quot;&gt;&lt;img src=&quot;/version-1.3.0//img/firefox_web_store-172x60.png&quot; alt=&quot;Running Challenges in the Firefox Add-ons Web Store&quot; title=&quot;Running Challenges in the Firefox Add-ons Web Store&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">A new challenge!…</summary></entry><entry><title type="html">What’s broken now (May 2022 Edition)</title><link href="/version-1.3.0/2022/05/15/whats-broken-now-may-2022-edition.html" rel="alternate" type="text/html" title="What's broken now (May 2022 Edition)" /><published>2022-05-15T13:00:00+01:00</published><updated>2022-05-15T13:00:00+01:00</updated><id>/version-1.3.0/2022/05/15/whats-broken-now-may-2022-edition</id><content type="html" xml:base="/version-1.3.0/2022/05/15/whats-broken-now-may-2022-edition.html">&lt;p&gt;There’s always something broken, but where are things at now?&lt;/p&gt;
 
