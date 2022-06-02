@@ -1,4 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/version-1.3.0/feed.xml" rel="self" type="application/atom+xml" /><link href="/version-1.3.0/" rel="alternate" type="text/html" /><updated>2022-06-02T21:12:48+01:00</updated><id>/version-1.3.0/feed.xml</id><title type="html">Running Challenges - Staging (version-1.3.0)</title><subtitle>Collect badges and complete challenges for running, jogging, walking, and volunteering at your weekly 5k parkrun. This browser extension adds extra information to your parkrun results page so you can see your progress.</subtitle><entry><title type="html">What’s broken now (May 2022 Edition)</title><link href="/version-1.3.0/2022/05/15/whats-broken-now-may-2022-edition.html" rel="alternate" type="text/html" title="What's broken now (May 2022 Edition)" /><published>2022-05-15T13:00:00+01:00</published><updated>2022-05-15T13:00:00+01:00</updated><id>/version-1.3.0/2022/05/15/whats-broken-now-may-2022-edition</id><content type="html" xml:base="/version-1.3.0/2022/05/15/whats-broken-now-may-2022-edition.html">&lt;p&gt;There’s always something broken, but where are things at now?&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/version-1.3.0/feed.xml" rel="self" type="application/atom+xml" /><link href="/version-1.3.0/" rel="alternate" type="text/html" /><updated>2022-06-02T21:49:54+01:00</updated><id>/version-1.3.0/feed.xml</id><title type="html">Running Challenges - Staging (version-1.3.0)</title><subtitle>Collect badges and complete challenges for running, jogging, walking, and volunteering at your weekly 5k parkrun. This browser extension adds extra information to your parkrun results page so you can see your progress.</subtitle><entry><title type="html">Record Breaker Challenge (v1.3.0)</title><link href="/version-1.3.0/2022/06/02/v1.3.0-record-breaker.html" rel="alternate" type="text/html" title="Record Breaker Challenge (v1.3.0)" /><published>2022-06-02T00:00:00+01:00</published><updated>2022-06-02T00:00:00+01:00</updated><id>/version-1.3.0/2022/06/02/v1.3.0-record-breaker</id><content type="html" xml:base="/version-1.3.0/2022/06/02/v1.3.0-record-breaker.html">&lt;p&gt;A new challenge!…&lt;/p&gt;
+
+&lt;h2 id=&quot;new&quot;&gt;New!&lt;/h2&gt;
+
+&lt;p&gt;We have a new Record Breaker challenge, support for more parkrun websites after the changes last year, and a few other tweaks&lt;/p&gt;
+
+&lt;h3 id=&quot;new-challenge-the-record-breaker-badge&quot;&gt;New challenge: the Record Breaker badge&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/version-1.3.0//img/badges/runner-record-breaker-78.png&quot; alt=&quot;Name Badge challenge badge&quot; title=&quot;Name Badge challenge badge&quot; class=&quot;center-image image-border&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This badge is awarded for running all the parkruns withing 33km, 45km, and 78km from your average parkrun location. For those of you too young to remember these things, but too old to know about the recent revival of vinyl, these are the speeds of various types of records.&lt;/p&gt;
+
+&lt;p&gt;We had originally coded this up by using your configured home parkrun event as the centre - but this would mean the challenge (and badge) would only be visible to you. However, as we &lt;a href=&quot;https://github.com/fraz3alpha/running-challenges/pull/203#issuecomment-1141483334&quot;&gt;collaborated on this&lt;/a&gt; with &lt;a href=&quot;https://github.com/rboyatt&quot;&gt;Russell Boyatt&lt;/a&gt;, he made the very good point we could use the average parkrun location (which we already calculate), and then it would be possible to calculate it for anyone - a very good idea!&lt;/p&gt;
+
+&lt;p&gt;We also use the voronoi map style to show the events for this challenge, which could - if there are enough parkruns nearby - end up with a pleasing archery target of coloured sections. Or, not, as the case may be (Andy’s average parkrun is currently on the south coast of England in Worthing, so it’s a lop-sided affair where colours bleed into the channel!)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/version-1.3.0//img/posts/record-breaker-map.png&quot; alt=&quot;Record Breaker badge&quot; title=&quot;Record Breaker badge&quot; class=&quot;center-image image-border&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;longest-tourism-streak-stat-update&quot;&gt;Longest tourism streak stat update&lt;/h3&gt;
+
+&lt;p&gt;The Longest tourism streak statistic now tells you when it ran to, so you can go look at it in your results, which we hope is useful&lt;/p&gt;
+
+&lt;p&gt;e.g.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;table&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Longest tourism streak&lt;/td&gt;
+        &lt;td&gt;17 parkruns (achieved Itchen Valley Country 29/02/2020)&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;add-name-badge-map&quot;&gt;Add Name Badge map&lt;/h3&gt;
+
+&lt;p&gt;I think it was just forgotten about before, but the Name Badge challenge now has a map&lt;/p&gt;
+
+&lt;h2 id=&quot;bug-fixes&quot;&gt;Bug fixes&lt;/h2&gt;
+
+&lt;h3 id=&quot;non-english-parkrun-websites&quot;&gt;Non-English parkrun Websites&lt;/h3&gt;
+
+&lt;p&gt;We think we’ve fixed all the non-English parkrun websites, which previously didn’t work after things were re-jigged in the great website updates of late 2021.&lt;/p&gt;
+
+&lt;h3 id=&quot;skip-proceessing-profiles-with-no-runs&quot;&gt;Skip proceessing profiles with no runs&lt;/h3&gt;
+
+&lt;p&gt;It seems the parkrun website now renders a page differently if the parkrunner hasn’t conpleted any runs, so rather than throw an error we print a nice message&lt;/p&gt;
+
+&lt;h2 id=&quot;firefox&quot;&gt;Firefox&lt;/h2&gt;
+
+&lt;p&gt;We are going to attempt to re-submit the extension to the Mozilla Add-Ons store, we’ve no idea if it will pass their checks and we don’t understand the reasoning for it being rejected before, but we’ll see if we can get any more information out of them&lt;/p&gt;
+
+&lt;h2 id=&quot;how-do-i-get-all-of-this-great-stuff&quot;&gt;How do I get all of this great stuff?&lt;/h2&gt;
+
+&lt;p&gt;If you have already installed the extension it should update soon. Typically we
+have found it takes a few days for Chrome and Firefox to auto-update, but it should
+do so eventually.  If you haven’t yet joined the fun you can get it from one of
+the links below. :&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/running-challenges/kdapmdimgdebpgolimjnmcdlkbkddoif&quot;&gt;&lt;img src=&quot;/version-1.3.0//img/ChromeWebStore_BadgeWBorder_v2_206x58.png&quot; alt=&quot;Running Challenges in the Chrome Web Store&quot; title=&quot;Running Challenges in the Chrome Web Store&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;https://addons.mozilla.org/en-GB/firefox/addon/running-challenges/&quot;&gt;&lt;img src=&quot;/version-1.3.0//img/firefox_web_store-172x60.png&quot; alt=&quot;Running Challenges in the Firefox Add-ons Web Store&quot; title=&quot;Running Challenges in the Firefox Add-ons Web Store&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">A new challenge!…</summary></entry><entry><title type="html">What’s broken now (May 2022 Edition)</title><link href="/version-1.3.0/2022/05/15/whats-broken-now-may-2022-edition.html" rel="alternate" type="text/html" title="What's broken now (May 2022 Edition)" /><published>2022-05-15T13:00:00+01:00</published><updated>2022-05-15T13:00:00+01:00</updated><id>/version-1.3.0/2022/05/15/whats-broken-now-may-2022-edition</id><content type="html" xml:base="/version-1.3.0/2022/05/15/whats-broken-now-may-2022-edition.html">&lt;p&gt;There’s always something broken, but where are things at now?&lt;/p&gt;
 
 &lt;h2 id=&quot;which-parkrun-websites-currently-work&quot;&gt;Which parkrun websites currently work?&lt;/h2&gt;
 
@@ -408,111 +468,4 @@ have found it takes a few days for Chrome and Firefox to auto-update, but it sho
 do so eventually.  If you haven’t yet joined the fun you can get it from one of
 the links below. :&lt;/p&gt;
 
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/running-challenges/kdapmdimgdebpgolimjnmcdlkbkddoif&quot;&gt;&lt;img src=&quot;/version-1.3.0//img/ChromeWebStore_BadgeWBorder_v2_206x58.png&quot; alt=&quot;Running Challenges in the Chrome Web Store&quot; title=&quot;Running Challenges in the Chrome Web Store&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;https://addons.mozilla.org/en-GB/firefox/addon/running-challenges/&quot;&gt;&lt;img src=&quot;/version-1.3.0//img/firefox_web_store-172x60.png&quot; alt=&quot;Running Challenges in the Firefox Add-ons Web Store&quot; title=&quot;Running Challenges in the Firefox Add-ons Web Store&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Full Ponty challenge extended and the addition of a new stat - the v-index!</summary></entry><entry><title type="html">Alphabeteer Panic - What Happened to Zary?</title><link href="/version-1.3.0/2019/05/19/alphabeteer-panic-what-happened-to-zary.html" rel="alternate" type="text/html" title="Alphabeteer Panic - What Happened to Zary?" /><published>2019-05-19T12:00:00+01:00</published><updated>2019-05-19T12:00:00+01:00</updated><id>/version-1.3.0/2019/05/19/alphabeteer-panic-what-happened-to-zary</id><content type="html" xml:base="/version-1.3.0/2019/05/19/alphabeteer-panic-what-happened-to-zary.html">&lt;p&gt;It is
-becoming quite a challenge in itself to reply to every comment or email about
-why Żary parkrun no longer counts towards the Alphabeteer A-Z challenge. It has come up so many times now that it is worthy of a blog post -
-hopefully this can set the record straight, with all the facts.&lt;/p&gt;
-
-&lt;h3 id=&quot;what-happened&quot;&gt;What Happened?&lt;/h3&gt;
-
-&lt;p&gt;At the start of May 2019, parkrun HQ &lt;del&gt;changed&lt;/del&gt; corrected the spelling of Żary
-parkrun in the results table, it now accurately starts with a &lt;code class=&quot;highlighter-rouge&quot;&gt;Ż&lt;/code&gt;, and not a &lt;code class=&quot;highlighter-rouge&quot;&gt;Z&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;The Polish alphabet contains many letters that are not in the UK English alphabet,
-with &lt;code class=&quot;highlighter-rouge&quot;&gt;Ż&lt;/code&gt; being one of them. Of the 66 current parkruns shown on the map in Poland, the following
-list shows those that have an initial letter not in the UK English alphabet:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.parkrun.pl/lodz/&quot;&gt;Łódź&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.parkrun.pl/swidwin/&quot;&gt;Świdwin&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.parkrun.pl/swinoujscie/&quot;&gt;Świnoujście&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.parkrun.pl/zary/&quot;&gt;Żary&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The extension currently checks whether the first letter of a parkrun name is one of the characters in the
-list &lt;code class=&quot;highlighter-rouge&quot;&gt;abcdefghijklmnopqrstuvwyz&lt;/code&gt; i.e. one of the characters of the UK Engish
-alphabet, minus the &lt;code class=&quot;highlighter-rouge&quot;&gt;X&lt;/code&gt;. A computer programme does not know if the letters look
-the same, it has a unique code for each letter - therefore &lt;code class=&quot;highlighter-rouge&quot;&gt;Ż&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;Z&lt;/code&gt; are never
-matched together. With that in mind, &lt;strong&gt;we did not remove Żary from counting as a Z&lt;/strong&gt;,
-it merely no longer starts with a character that we check for, and thus it effectively
-became invisible in the Alphabeteer challenge in the Running Challenges extension. &lt;strong&gt;There has been no change in the
-Running Challenges Extension code&lt;/strong&gt;, this change in behaviour is purely down to
-the change in the way the event name is displayed in the results table - a change
-made by parkrun HQ.&lt;/p&gt;
-
-&lt;p&gt;To be clear, the Running Challenges Extension is not affiliated with parkrun, and
-as it says in our &lt;a href=&quot;/about&quot;&gt;About page&lt;/a&gt;, it is made by a couple of keen parkrunners who just
-wanted to share a cool tool they made. We don’t get notified in advance of any parkrun website changes; if it breaks something in the Running Challenges extension, we just have to catch up and fix it. The first we heard of the
-change in the way Żary is written was when we were on holiday in Cornwall!&lt;/p&gt;
-
-&lt;h3 id=&quot;why-did-it-change&quot;&gt;Why Did It Change?&lt;/h3&gt;
-
-&lt;p&gt;As we are unaffiliated with parkrun HQ, we have no insight into why this was
-changed now, but we can (and will!) speculate. The primary reason is that it was
-wrong! &lt;code class=&quot;highlighter-rouge&quot;&gt;Ż&lt;/code&gt; is not the same as &lt;code class=&quot;highlighter-rouge&quot;&gt;Z&lt;/code&gt;, and being correct is important.&lt;/p&gt;
-
-&lt;p&gt;As parkrun becomes ever more global it has to make sure the
-events in each country are accessible to those local communities. Having your
-local parkrun incorrectly spelt on the website can only hinder native Polish parkrunners
-finding it.&lt;/p&gt;
-
-&lt;p&gt;Edit: 20190522. Word on the street is that the Polish parkrun community wanted
-the parkrun spelt correctly on their &lt;a href=&quot;https://www.prodirectrunning.com/articles/parkrun/parkrun-apricot/&quot;&gt;apricot tees&lt;/a&gt;, seems reasonable!&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;From our secret source: &amp;quot;The reason the Z was changed in Poland was because of the new Apricot t-shirts. The Poles wanted the correct alphabet for all the events. It didn’t come from HQ, but of course we did it for them.&amp;quot;&lt;br /&gt;&lt;br /&gt;And rightly so too. 👏👏👏 &lt;a href=&quot;https://t.co/YRplDIeOOd&quot;&gt;https://t.co/YRplDIeOOd&lt;/a&gt;&lt;/p&gt;&amp;mdash; With Me Now (@WithMeNowPod) &lt;a href=&quot;https://twitter.com/WithMeNowPod/status/1131128642652856320?ref_src=twsrc%5Etfw&quot;&gt;May 22, 2019&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;why-does-it-matter-to-alphabeteers&quot;&gt;Why Does It Matter To Alphabeteers?&lt;/h3&gt;
-
-&lt;p&gt;It is well known in the parkrun tourist communities that some initial letters
-are harder to get than others. For a long time,  Jersey parkrun
-was the only event on the UK parkrun website that began with a &lt;code class=&quot;highlighter-rouge&quot;&gt;J&lt;/code&gt;, and there were many grumblings about ‘having’
-to go to beautiful Channel Islands to get that letter. The more extreme case is
-for a &lt;code class=&quot;highlighter-rouge&quot;&gt;Z&lt;/code&gt;, where the nearest one was in &lt;del&gt;Zary&lt;/del&gt; Żary, Poland. To some, finding
-that &lt;del&gt;Zary&lt;/del&gt; Żary is not being counted as a &lt;code class=&quot;highlighter-rouge&quot;&gt;Z&lt;/code&gt; is &lt;strong&gt;the-worst-thing-in-the-world™&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;what-else-might-change&quot;&gt;What Else Might Change?&lt;/h3&gt;
-
-&lt;p&gt;The eagle-eyed amongst you will have noticed that all the Russian parkrun events
-are listed in the results table in their English spellings, take
-&lt;a href=&quot;https://www.parkrun.ru/gorkypark/&quot;&gt;Gorky Park&lt;/a&gt; for example, which is actually
-called “parkrun Парк Горького”, or maybe &lt;a href=&quot;https://www.parkrun.jp/futakotamagawa/&quot;&gt;二子玉川 parkrun&lt;/a&gt;, which   begins
-with “二”, “ふ”, or (at a push) an “F”. It is probably only a matter of time before these
-corrections are also made.&lt;/p&gt;
-
-&lt;h3 id=&quot;how-is-the-running-challenge-extension-going-to-cope&quot;&gt;How is the Running Challenge Extension Going to Cope?&lt;/h3&gt;
-
-&lt;p&gt;Good question. Whatever we decide will unfortunately be seen to favour one group
-over another. However, where possible we have always tried to include the worldwide
-parkrun family and not make this extension exclusively UK only, so our solution
-will attempt to respect that.&lt;/p&gt;
-
-&lt;p&gt;One thing we will definitely &lt;em&gt;&lt;strong&gt;not&lt;/strong&gt;&lt;/em&gt; be doing is counting Żary as a Z, that
-makes no sense - the letters are as similar as O and Q, but no-one is suggesting
-that those two are interchangeable!&lt;/p&gt;
-
-&lt;p&gt;It is likely that we will split the Alphabeteer challenges up into country variants,
-and include a master list for those people wanting to truly get the whole list.
-This will have the following advantages:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Those parkrunners who don’t want to, or can’t, go abroad will be able to track
-their local progress against the available alphabet letters in their country.&lt;/li&gt;
-  &lt;li&gt;The master list will allow anyone to track any specific subset they are interested
-in, and if they want to track Żary as a Z, they can see that it has been done.
-But this won’t mean the badge is available for arbitrary subsets.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;why-isnt-it-fixed-yet&quot;&gt;Why Isn’t it Fixed Yet?&lt;/h3&gt;
-
-&lt;p&gt;There are not enough hours in the day! We have full-time jobs, other hobbies, and lives outside of parkrun, we’ll do the changes when we can. As you
-can hopefully see from the above explanation, however, it’s not a trivial change.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;If you haven’t yet joined the fun, you can get the extension from one of
-the links below:&lt;/p&gt;
-
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/running-challenges/kdapmdimgdebpgolimjnmcdlkbkddoif&quot;&gt;&lt;img src=&quot;/version-1.3.0//img/ChromeWebStore_BadgeWBorder_v2_206x58.png&quot; alt=&quot;Running Challenges in the Chrome Web Store&quot; title=&quot;Running Challenges in the Chrome Web Store&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;https://addons.mozilla.org/en-GB/firefox/addon/running-challenges/&quot;&gt;&lt;img src=&quot;/version-1.3.0//img/firefox_web_store-172x60.png&quot; alt=&quot;Running Challenges in the Firefox Add-ons Web Store&quot; title=&quot;Running Challenges in the Firefox Add-ons Web Store&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">It is becoming quite a challenge in itself to reply to every comment or email about why Żary parkrun no longer counts towards the Alphabeteer A-Z challenge. It has come up so many times now that it is worthy of a blog post - hopefully this can set the record straight, with all the facts.</summary></entry></feed>
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/running-challenges/kdapmdimgdebpgolimjnmcdlkbkddoif&quot;&gt;&lt;img src=&quot;/version-1.3.0//img/ChromeWebStore_BadgeWBorder_v2_206x58.png&quot; alt=&quot;Running Challenges in the Chrome Web Store&quot; title=&quot;Running Challenges in the Chrome Web Store&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;https://addons.mozilla.org/en-GB/firefox/addon/running-challenges/&quot;&gt;&lt;img src=&quot;/version-1.3.0//img/firefox_web_store-172x60.png&quot; alt=&quot;Running Challenges in the Firefox Add-ons Web Store&quot; title=&quot;Running Challenges in the Firefox Add-ons Web Store&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Full Ponty challenge extended and the addition of a new stat - the v-index!</summary></entry></feed>
