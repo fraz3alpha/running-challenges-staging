@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/version-1.3.0/feed.xml" rel="self" type="application/atom+xml" /><link href="/version-1.3.0/" rel="alternate" type="text/html" /><updated>2022-06-02T21:49:54+01:00</updated><id>/version-1.3.0/feed.xml</id><title type="html">Running Challenges - Staging (version-1.3.0)</title><subtitle>Collect badges and complete challenges for running, jogging, walking, and volunteering at your weekly 5k parkrun. This browser extension adds extra information to your parkrun results page so you can see your progress.</subtitle><entry><title type="html">Record Breaker Challenge (v1.3.0)</title><link href="/version-1.3.0/2022/06/02/v1.3.0-record-breaker.html" rel="alternate" type="text/html" title="Record Breaker Challenge (v1.3.0)" /><published>2022-06-02T00:00:00+01:00</published><updated>2022-06-02T00:00:00+01:00</updated><id>/version-1.3.0/2022/06/02/v1.3.0-record-breaker</id><content type="html" xml:base="/version-1.3.0/2022/06/02/v1.3.0-record-breaker.html">&lt;p&gt;A new challenge!…&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/version-1.3.0/feed.xml" rel="self" type="application/atom+xml" /><link href="/version-1.3.0/" rel="alternate" type="text/html" /><updated>2022-06-02T21:58:00+01:00</updated><id>/version-1.3.0/feed.xml</id><title type="html">Running Challenges - Staging (version-1.3.0)</title><subtitle>Collect badges and complete challenges for running, jogging, walking, and volunteering at your weekly 5k parkrun. This browser extension adds extra information to your parkrun results page so you can see your progress.</subtitle><entry><title type="html">Record Breaker Challenge (v1.3.0)</title><link href="/version-1.3.0/2022/06/02/v1.3.0-record-breaker.html" rel="alternate" type="text/html" title="Record Breaker Challenge (v1.3.0)" /><published>2022-06-02T00:00:00+01:00</published><updated>2022-06-02T00:00:00+01:00</updated><id>/version-1.3.0/2022/06/02/v1.3.0-record-breaker</id><content type="html" xml:base="/version-1.3.0/2022/06/02/v1.3.0-record-breaker.html">&lt;p&gt;A new challenge!…&lt;/p&gt;
 
 &lt;h2 id=&quot;new&quot;&gt;New!&lt;/h2&gt;
 
 &lt;p&gt;We have a new Record Breaker challenge, support for more parkrun websites after the changes last year, and a few other tweaks&lt;/p&gt;
+
+&lt;p&gt;Big thanks to &lt;a href=&quot;https://github.com/rboyatt&quot;&gt;Russell Boyatt&lt;/a&gt; and &lt;a href=&quot;https://github.com/JazzyJ87&quot;&gt;@JazzyJ87&lt;/a&gt; who provided many of the changes in this release and are the main reason we have been able to do this update!&lt;/p&gt;
 
 &lt;h3 id=&quot;new-challenge-the-record-breaker-badge&quot;&gt;New challenge: the Record Breaker badge&lt;/h3&gt;
 
@@ -33,9 +35,13 @@
   &lt;/table&gt;
 &lt;/blockquote&gt;
 
+&lt;p&gt;Thanks to &lt;a href=&quot;https://github.com/JazzyJ87&quot;&gt;@JazzyJ87&lt;/a&gt; for contributing the code for this update&lt;/p&gt;
+
 &lt;h3 id=&quot;add-name-badge-map&quot;&gt;Add Name Badge map&lt;/h3&gt;
 
-&lt;p&gt;I think it was just forgotten about before, but the Name Badge challenge now has a map&lt;/p&gt;
+&lt;p&gt;I think it was just forgotten about before, but the Name Badge challenge now has a map.&lt;/p&gt;
+
+&lt;p&gt;Thanks again to &lt;a href=&quot;https://github.com/JazzyJ87&quot;&gt;@JazzyJ87&lt;/a&gt; who &lt;a href=&quot;https://github.com/fraz3alpha/running-challenges/pull/336&quot;&gt;added this&lt;/a&gt; as well&lt;/p&gt;
 
 &lt;h2 id=&quot;bug-fixes&quot;&gt;Bug fixes&lt;/h2&gt;
 
@@ -46,6 +52,12 @@
 &lt;h3 id=&quot;skip-proceessing-profiles-with-no-runs&quot;&gt;Skip proceessing profiles with no runs&lt;/h3&gt;
 
 &lt;p&gt;It seems the parkrun website now renders a page differently if the parkrunner hasn’t conpleted any runs, so rather than throw an error we print a nice message&lt;/p&gt;
+
+&lt;h3 id=&quot;volunteer-role-name-updates&quot;&gt;Volunteer role name updates&lt;/h3&gt;
+
+&lt;p&gt;As part of the move away from “runs”, the parkrun website changed the names of a couple of the volunteer roles to reflect this, such as “Run Report Writer” just dropping the “Run” and becoming “Report Writer”. This broke these volunteer stats and badges, so we had to re-name these. It seems like the non-English versions were already OK (perhaps because they had thought about this before a new country was started), but if any of those look like they aren’t working, let us know&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&quot;https://github.com/rboyatt&quot;&gt;Russell Boyatt&lt;/a&gt; who &lt;a href=&quot;https://github.com/fraz3alpha/running-challenges/pull/334&quot;&gt;contributed this fix&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;firefox&quot;&gt;Firefox&lt;/h2&gt;
 
