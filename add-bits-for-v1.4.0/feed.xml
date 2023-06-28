@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/add-bits-for-v1.4.0/feed.xml" rel="self" type="application/atom+xml" /><link href="/add-bits-for-v1.4.0/" rel="alternate" type="text/html" /><updated>2023-06-28T21:12:27+01:00</updated><id>/add-bits-for-v1.4.0/feed.xml</id><title type="html">Running Challenges - Staging (add-bits-for-v1.4.0)</title><subtitle>Collect badges and complete challenges for running, jogging, walking, and volunteering at your weekly 5k parkrun. This browser extension adds extra information to your parkrun results page so you can see your progress.</subtitle><entry><title type="html">Bug fixes for results ordering (v1.3.1)</title><link href="/add-bits-for-v1.4.0/2022/06/05/v1.3.1-bug-fixes.html" rel="alternate" type="text/html" title="Bug fixes for results ordering (v1.3.1)" /><published>2022-06-05T00:00:00+01:00</published><updated>2022-06-05T00:00:00+01:00</updated><id>/add-bits-for-v1.4.0/2022/06/05/v1.3.1-bug-fixes</id><content type="html" xml:base="/add-bits-for-v1.4.0/2022/06/05/v1.3.1-bug-fixes.html">&lt;p&gt;Something broke yesterday! Firefox is back! Ooh, and a new feature!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/add-bits-for-v1.4.0/feed.xml" rel="self" type="application/atom+xml" /><link href="/add-bits-for-v1.4.0/" rel="alternate" type="text/html" /><updated>2023-06-28T21:22:41+01:00</updated><id>/add-bits-for-v1.4.0/feed.xml</id><title type="html">Running Challenges - Staging (add-bits-for-v1.4.0)</title><subtitle>Collect badges and complete challenges for running, jogging, walking, and volunteering at your weekly 5k parkrun. This browser extension adds extra information to your parkrun results page so you can see your progress.</subtitle><entry><title type="html">Bug fixes and adapting to the parkrun wiki going away (v1.4.0)</title><link href="/add-bits-for-v1.4.0/2022/06/28/v1.4.0-fixes-and-wiki-gone-away.html" rel="alternate" type="text/html" title="Bug fixes and adapting to the parkrun wiki going away (v1.4.0)" /><published>2022-06-28T00:00:00+01:00</published><updated>2022-06-28T00:00:00+01:00</updated><id>/add-bits-for-v1.4.0/2022/06/28/v1.4.0-fixes-and-wiki-gone-away</id><content type="html" xml:base="/add-bits-for-v1.4.0/2022/06/28/v1.4.0-fixes-and-wiki-gone-away.html">&lt;p&gt;Things change, but we try and keep up (within some period of time, measured in months)&lt;/p&gt;
+
+&lt;h2 id=&quot;new-features&quot;&gt;New Features&lt;/h2&gt;
+
+&lt;h3 id=&quot;added-parkwalker-role-badge&quot;&gt;Added parkwalker role badge&lt;/h3&gt;
+
+&lt;p&gt;The parkwalker role is a relatively new one, but by this point I think it has been around at least 6 months, so we aren’t exactly quick off the mark in including this… But now there is a badge for this role.&lt;/p&gt;
+
+&lt;h2 id=&quot;bug-fixes&quot;&gt;Bug fixes&lt;/h2&gt;
+
+&lt;h3 id=&quot;updated-the-colours-of-all-the-high-viz-badges&quot;&gt;Updated the colours of all the high-viz badges&lt;/h3&gt;
+
+&lt;p&gt;As the parkwalker role was added we took the opportunity to update all the colours of the high-viz vests to match the current colour scheme. The Run Director bid was at least 2 versions behind!&lt;/p&gt;
+
+&lt;h3 id=&quot;name-badge-fixed&quot;&gt;Name Badge fixed&lt;/h3&gt;
+
+&lt;p&gt;At some point parkrun changed the way the parkrunner name was displayed at the top of the page to suffix it with your parkrun number, e.g. A1309364, which got automatically picked up by this challenge, and made you need to gain an extra A (as you couldn’t get any numbers, these were skipped anyway). &lt;a href=&quot;https://github.com/solarisfire&quot;&gt;Stephen Greenham&lt;/a&gt; fixed this for us via &lt;a href=&quot;https://github.com/fraz3alpha/running-challenges/pull/370&quot;&gt;#370&lt;/a&gt;, thanks!&lt;/p&gt;
+
+&lt;h3 id=&quot;parkrunpl-fixed&quot;&gt;parkrun.pl fixed&lt;/h3&gt;
+
+&lt;p&gt;A few things seemed to have changed on the Polish site, including the name of the results table, and some of the translations. The results table name resulted in a massive fail parsing the page and the extension did not handle this well, the translations were just missing badges.&lt;/p&gt;
+
+&lt;h3 id=&quot;removed-the-dependency-on-the-parkrun-wiki&quot;&gt;Removed the Dependency on the parkrun Wiki&lt;/h3&gt;
+
+&lt;p&gt;It seems the wiki is on the way out, and there is less and less there. In our case we relied on a table that was published there which said whether an event was live or not (effectively, had it had at least one event), and we used that to omit events that were on the map, but hadn’t started, from anything we calculated. 
+Without this data you might find that new parkruns pop up and you’ll have gaps in your explorer map for events that you couldn’t have run, or similarly a NENDY of an even that hasn’t started. In the grand scheme of keeping things simple, we’ll just have to accept this now, and live with it. The wiki page was often flakey anyway, and often was being regenerated which led to frequent error messages popping up, so hopefully now at least it will go back to being pretty stable.&lt;/p&gt;
+
+&lt;h3 id=&quot;warm-up-volunteer-badge-fixed&quot;&gt;Warm up Volunteer badge fixed&lt;/h3&gt;
+
+&lt;p&gt;This volunteer role changed from “Warm Up Leader (junior events only)” to “Warm Up Leader”, so needed an alias adding - it’s now back.&lt;/p&gt;
+
+&lt;h2 id=&quot;general-improvements&quot;&gt;General Improvements&lt;/h2&gt;
+
+&lt;p&gt;We added a way to reliably tests all the parkrun sites with a locally saved copy of several parkrunners (mostly Andy, but also some others) against each build of the extension, so hopefully we can make sure that all the volunteer role translations are correct, and we don’t lose any badges. It’s still a work in progress, but we have something to work from now - and it has already proved its worth while fixing the Polish parkrun site, and some others we found were incorrect!&lt;/p&gt;
+
+&lt;h2 id=&quot;how-do-i-get-all-of-this-great-stuff&quot;&gt;How do I get all of this great stuff?&lt;/h2&gt;
+
+&lt;p&gt;If you have already installed the extension it should update soon. Typically we
+have found it takes a few days to auto-update, but it should
+do so eventually.  If you haven’t yet joined the fun you can get it from one of
+the links below (the Firefox version will be likely a little delayed):&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/running-challenges/kdapmdimgdebpgolimjnmcdlkbkddoif&quot;&gt;&lt;img src=&quot;/add-bits-for-v1.4.0//img/ChromeWebStore_BadgeWBorder_v2_206x58.png&quot; alt=&quot;Running Challenges in the Chrome Web Store&quot; title=&quot;Running Challenges in the Chrome Web Store&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;https://addons.mozilla.org/en-GB/firefox/addon/running-challenges/&quot;&gt;&lt;img src=&quot;/add-bits-for-v1.4.0//img/firefox_web_store-172x60.png&quot; alt=&quot;Running Challenges in the Firefox Add-ons Web Store&quot; title=&quot;Running Challenges in the Firefox Add-ons Web Store&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Things change, but we try and keep up (within some period of time, measured in months)</summary></entry><entry><title type="html">Bug fixes for results ordering (v1.3.1)</title><link href="/add-bits-for-v1.4.0/2022/06/05/v1.3.1-bug-fixes.html" rel="alternate" type="text/html" title="Bug fixes for results ordering (v1.3.1)" /><published>2022-06-05T00:00:00+01:00</published><updated>2022-06-05T00:00:00+01:00</updated><id>/add-bits-for-v1.4.0/2022/06/05/v1.3.1-bug-fixes</id><content type="html" xml:base="/add-bits-for-v1.4.0/2022/06/05/v1.3.1-bug-fixes.html">&lt;p&gt;Something broke yesterday! Firefox is back! Ooh, and a new feature!&lt;/p&gt;
 
 &lt;h2 id=&quot;return-of-the-fox&quot;&gt;Return of the Fox&lt;/h2&gt;
 
@@ -434,54 +476,4 @@ Hopefully we’ve got them translated right!&lt;/p&gt;
 amazing &lt;a href=&quot;https://tailrun.uk/nyd/2020/&quot;&gt;Double Finder Tool&lt;/a&gt; to see which ones you
 might be able to do!&lt;/p&gt;
 
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/running-challenges/kdapmdimgdebpgolimjnmcdlkbkddoif&quot;&gt;&lt;img src=&quot;/add-bits-for-v1.4.0//img/ChromeWebStore_BadgeWBorder_v2_206x58.png&quot; alt=&quot;Running Challenges in the Chrome Web Store&quot; title=&quot;Running Challenges in the Chrome Web Store&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;https://addons.mozilla.org/en-GB/firefox/addon/running-challenges/&quot;&gt;&lt;img src=&quot;/add-bits-for-v1.4.0//img/firefox_web_store-172x60.png&quot; alt=&quot;Running Challenges in the Firefox Add-ons Web Store&quot; title=&quot;Running Challenges in the Firefox Add-ons Web Store&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">It’s that time of the year for the extra festive parkrun events!</summary></entry><entry><title type="html">Where did my flags go?</title><link href="/add-bits-for-v1.4.0/2019/11/19/where-did-my-flags-go.html" rel="alternate" type="text/html" title="Where did my flags go?" /><published>2019-11-19T20:00:00+00:00</published><updated>2019-11-19T20:00:00+00:00</updated><id>/add-bits-for-v1.4.0/2019/11/19/where-did-my-flags-go</id><content type="html" xml:base="/add-bits-for-v1.4.0/2019/11/19/where-did-my-flags-go.html">&lt;p&gt;You may have noticed that your flags have disappeared, you can’t save your athlete ID in
-the options page, your regionnaire badge has disappeared, or you no longer have your NENDY 
-and average parkrun location listed… Read on to find out what broke, why, and what we’re doing 
-to fix it…&lt;/p&gt;
-
-&lt;h2 id=&quot;what-broke&quot;&gt;What broke?&lt;/h2&gt;
-
-&lt;p&gt;The Running Challenges extension uses the location of parkruns to determine which countries you 
-have been to - adding flags under your badges, to generate the Regionnaire challenge info, as 
-well as work out stats such as your NENDY.&lt;/p&gt;
-
-&lt;p&gt;There were also some knock on errors, which wouldn’t have happened if we had coded the extension
-to cope with the event location data being missing, such as saving your profile.&lt;/p&gt;
-
-&lt;h2 id=&quot;why-did-it-break&quot;&gt;Why did it break?&lt;/h2&gt;
-
-&lt;p&gt;During the summer the main parkrun website changed the way they generated the event map - 
-out went a XML file (geo.xml) that had existed from the Google Maps days, and in came a 
-JSON file (events.json). The new file was much more efficient to render the event markers 
-on the map, but broke our extension…&lt;/p&gt;
-
-&lt;h2 id=&quot;has-it-been-fixed&quot;&gt;Has it been fixed?&lt;/h2&gt;
-
-&lt;p&gt;Yes and no. Most of the extension is back to full strength - the flags are still available, 
-and you’ll still be able to determine your NENDY, but the Regionnaire challenge is missing
-parts. We’ve also made the code more robust if data is missing. It won’t be bulletproof, but 
-hopefully it is better.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-state-of-the-regionnaire-challenge&quot;&gt;The state of the Regionnaire challenge&lt;/h2&gt;
-
-&lt;p&gt;The only regions that we now have access to in the events data are the countries, there are no
-subregions in the data we pull down. Not every country had sub-regions before, so for parkrunners in 
-the USA, or most of Europe, there is no change. The UK, Australia, and South Africa were the 
-largest ones with sub-regions, and now all those parkruns are counted against the country at a single 
-level.&lt;/p&gt;
-
-&lt;p&gt;As there isn’t any sensible sub-division, the regionnaire challenge badge would effectively only be 
-achieveable for those people who had done every event in a whole country - so it has been removed for now.&lt;/p&gt;
-
-&lt;p&gt;The Regionnaire table remains, but now it is more of a parkrun event explorer - showing you how many 
-events you have done in each country, and allowing you to browse them on the map. As yet there is no
-highlighting of which ones have been done, but that’ll probably be re-introduced as time allows.&lt;/p&gt;
-
-&lt;h2 id=&quot;but-but-i-want-my-regions-back&quot;&gt;But, but, I want my regions back!&lt;/h2&gt;
-
-&lt;p&gt;If there is a simple and sensible way of making them return, we will try to do so. We don’t want to spend hours
-crafting a list, and we certainly don’t want to be drawn into debates about which region an event should 
-go in. We’ll see how it goes without the information for now, fix a few other things first, and then 
-come back to looking at it again.&lt;/p&gt;
-
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/running-challenges/kdapmdimgdebpgolimjnmcdlkbkddoif&quot;&gt;&lt;img src=&quot;/add-bits-for-v1.4.0//img/ChromeWebStore_BadgeWBorder_v2_206x58.png&quot; alt=&quot;Running Challenges in the Chrome Web Store&quot; title=&quot;Running Challenges in the Chrome Web Store&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;https://addons.mozilla.org/en-GB/firefox/addon/running-challenges/&quot;&gt;&lt;img src=&quot;/add-bits-for-v1.4.0//img/firefox_web_store-172x60.png&quot; alt=&quot;Running Challenges in the Firefox Add-ons Web Store&quot; title=&quot;Running Challenges in the Firefox Add-ons Web Store&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">You may have noticed that your flags have disappeared, you can’t save your athlete ID in the options page, your regionnaire badge has disappeared, or you no longer have your NENDY and average parkrun location listed… Read on to find out what broke, why, and what we’re doing to fix it…</summary></entry></feed>
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/running-challenges/kdapmdimgdebpgolimjnmcdlkbkddoif&quot;&gt;&lt;img src=&quot;/add-bits-for-v1.4.0//img/ChromeWebStore_BadgeWBorder_v2_206x58.png&quot; alt=&quot;Running Challenges in the Chrome Web Store&quot; title=&quot;Running Challenges in the Chrome Web Store&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;https://addons.mozilla.org/en-GB/firefox/addon/running-challenges/&quot;&gt;&lt;img src=&quot;/add-bits-for-v1.4.0//img/firefox_web_store-172x60.png&quot; alt=&quot;Running Challenges in the Firefox Add-ons Web Store&quot; title=&quot;Running Challenges in the Firefox Add-ons Web Store&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">It’s that time of the year for the extra festive parkrun events!</summary></entry></feed>
