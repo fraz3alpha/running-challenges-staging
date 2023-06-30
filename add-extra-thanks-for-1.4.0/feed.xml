@@ -1,10 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/add-extra-thanks-for-1.4.0/feed.xml" rel="self" type="application/atom+xml" /><link href="/add-extra-thanks-for-1.4.0/" rel="alternate" type="text/html" /><updated>2023-06-30T08:43:29+01:00</updated><id>/add-extra-thanks-for-1.4.0/feed.xml</id><title type="html">Running Challenges - Staging (add-extra-thanks-for-1.4.0)</title><subtitle>Collect badges and complete challenges for running, jogging, walking, and volunteering at your weekly 5k parkrun. This browser extension adds extra information to your parkrun results page so you can see your progress.</subtitle><entry><title type="html">Bug fixes and adapting to the parkrun wiki going away (v1.4.0)</title><link href="/add-extra-thanks-for-1.4.0/2023/06/28/v1.4.0-fixes-and-wiki-gone-away.html" rel="alternate" type="text/html" title="Bug fixes and adapting to the parkrun wiki going away (v1.4.0)" /><published>2023-06-28T00:00:00+01:00</published><updated>2023-06-28T00:00:00+01:00</updated><id>/add-extra-thanks-for-1.4.0/2023/06/28/v1.4.0-fixes-and-wiki-gone-away</id><content type="html" xml:base="/add-extra-thanks-for-1.4.0/2023/06/28/v1.4.0-fixes-and-wiki-gone-away.html">&lt;p&gt;Things change, but we try and keep up (within some period of time, measured in months)&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/add-extra-thanks-for-1.4.0/feed.xml" rel="self" type="application/atom+xml" /><link href="/add-extra-thanks-for-1.4.0/" rel="alternate" type="text/html" /><updated>2023-06-30T08:46:56+01:00</updated><id>/add-extra-thanks-for-1.4.0/feed.xml</id><title type="html">Running Challenges - Staging (add-extra-thanks-for-1.4.0)</title><subtitle>Collect badges and complete challenges for running, jogging, walking, and volunteering at your weekly 5k parkrun. This browser extension adds extra information to your parkrun results page so you can see your progress.</subtitle><entry><title type="html">Bug fixes and adapting to the parkrun wiki going away (v1.4.0)</title><link href="/add-extra-thanks-for-1.4.0/2023/06/28/v1.4.0-fixes-and-wiki-gone-away.html" rel="alternate" type="text/html" title="Bug fixes and adapting to the parkrun wiki going away (v1.4.0)" /><published>2023-06-28T00:00:00+01:00</published><updated>2023-06-28T00:00:00+01:00</updated><id>/add-extra-thanks-for-1.4.0/2023/06/28/v1.4.0-fixes-and-wiki-gone-away</id><content type="html" xml:base="/add-extra-thanks-for-1.4.0/2023/06/28/v1.4.0-fixes-and-wiki-gone-away.html">&lt;p&gt;Things change, but we try and keep up (within some period of time, measured in months)&lt;/p&gt;
 
 &lt;h2 id=&quot;new-features&quot;&gt;New Features&lt;/h2&gt;
 
 &lt;h3 id=&quot;added-parkwalker-role-badge&quot;&gt;Added parkwalker role badge&lt;/h3&gt;
 
 &lt;p&gt;The parkwalker role is a relatively new one, but by this point I think it has been around at least 6 months, so we aren’t exactly quick off the mark in including this… But now there is a badge for this role.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/sneaker-net&quot;&gt;‘sneaker-net’&lt;/a&gt; first got the ball rolling on this for us via &lt;a href=&quot;https://github.com/fraz3alpha/running-challenges/pull/364&quot;&gt;#364&lt;/a&gt;, thanks!&lt;/p&gt;
 
 &lt;h2 id=&quot;bug-fixes&quot;&gt;Bug fixes&lt;/h2&gt;
 
@@ -14,7 +16,9 @@
 
 &lt;h3 id=&quot;name-badge-fixed&quot;&gt;Name Badge fixed&lt;/h3&gt;
 
-&lt;p&gt;At some point parkrun changed the way the parkrunner name was displayed at the top of the page to suffix it with your parkrun number, e.g. A1309364, which got automatically picked up by this challenge, and made you need to gain an extra A (as you couldn’t get any numbers, these were skipped anyway). &lt;a href=&quot;https://github.com/solarisfire&quot;&gt;Stephen Greenham&lt;/a&gt; fixed this for us via &lt;a href=&quot;https://github.com/fraz3alpha/running-challenges/pull/370&quot;&gt;#370&lt;/a&gt;, thanks!&lt;/p&gt;
+&lt;p&gt;At some point parkrun changed the way the parkrunner name was displayed at the top of the page to suffix it with your parkrun number, e.g. A1309364, which got automatically picked up by this challenge, and made you need to gain an extra A (as you couldn’t get any numbers, these were skipped anyway).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/solarisfire&quot;&gt;Stephen Greenham&lt;/a&gt; fixed this for us via &lt;a href=&quot;https://github.com/fraz3alpha/running-challenges/pull/370&quot;&gt;#370&lt;/a&gt;, thanks!&lt;/p&gt;
 
 &lt;h3 id=&quot;parkrunpl-fixed&quot;&gt;parkrun.pl fixed&lt;/h3&gt;
 
